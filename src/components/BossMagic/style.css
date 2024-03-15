@@ -1,0 +1,96 @@
+.BossMagicSection{
+    width: 100%;
+    height: 750px;
+    background-image: url("/src/assets/boss-magic.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.boss-magic-container{
+    background: rgb(74,84,104);
+    background: linear-gradient(180deg, rgba(74,84,104,1) 0%, rgba(0,148,220,1) 100%);
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-emphasis-color: white;
+
+}
+
+.boss-magic-centralised-blocks{
+    margin: auto;
+    height: 500px;
+    width: 850px;
+}
+
+.boss-magic-title{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.boss-magic-tag{
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+.boss-magic-description{
+    font-size: 16px;
+    color: white;
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto; 
+    text-align: center;
+
+}
+
+.boss-magic-video{
+    background-color: black;
+    width: 400px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto; 
+}
+
+.boss-magic-action{
+    background-color: white;
+    border-radius: 30px;
+    height: 50px;
+    width: fit-content;
+    padding-left: 5px;
+    margin: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.book-a-demo-ip{
+    padding: 0px 80px;
+    border: none;
+}
+.book-a-demo-btn{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 0px 40px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

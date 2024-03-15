@@ -1,0 +1,107 @@
+.key-features-layout{
+    height: 800px;
+    width: 100%;
+    background-color: white;
+}
+.key-features-section1{
+    width: 30%;
+}
+.keyfeatures-container{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+}
+
+.key-features-section-2{
+    width: 60%;
+    height: fit-content;
+}
+
+.key-feature-section-title{
+    color: #0094DC;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.key-feature-section-tagline{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.key-feature-section-description{
+    font-size: 20px;
+}
+
+.key-features-title{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.key-features-image-container{
+    width: 45%;
+    height: 300px;
+    background-color: black;
+}
+
+.py-4{
+    width: 40%;
+}
+
+.wid{
+    width: 60%;
+}
+
+.key-feature-section-divider{
+    background-color: #FB9A08;
+    border-radius: 20px;
+    height: 5px;
+    width: 80%;
+}
+.tab-view-btns{
+    background: none;
+    border: none; /* Remove borders from buttons */
+    cursor: pointer;
+    outline: none; /* Remove outline on focus */
+    transition: color 0.3s ease;
+    width: max-content;
+    padding: 10px 40px;
+    font-size: 16px;
+    color: grey;
+}
+
+
+
+
+/* Animation for tabs */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+  .tab-underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    border-radius: 20px;    background-color: #0094DC;
+    ; /* Set color of underline */
+    transition: width 0.3s ease, left 0.3s ease; /* Add transition for smooth animation */
+  }
+  .tab-container {
+    position: relative;
+  }
+  
+  /* Animation for tab loading */
+  .tab-container .flex button {
+    animation: fadeIn 0.5s ease forwards; /* Apply fade-in animation to buttons */
+  }  
